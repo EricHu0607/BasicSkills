@@ -11,11 +11,11 @@ Given a list of non-negative integers representing the amount of money
 of each house, determine the maximum amount of money you can rob tonight 
 without alerting the police.
 
-����һ��רҵ��С͵���ƻ�͵���ؽֵķ��ݡ�ÿ�䷿�ڶ�����һ�����ֽ�
-Ӱ����͵�Ե�Ψһ��Լ���ؾ������ڵķ���װ���໥��ͨ�ķ���ϵͳ��
-����������ڵķ�����ͬһ���ϱ�С͵���룬ϵͳ���Զ�������
+你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，
+影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，
+如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警。
 
-����һ������ÿ�����ݴ�Ž��ķǸ��������飬�������ڲ���������װ�õ�����£��ܹ�͵�Ե�����߽�
+给定一个代表每个房屋存放金额的非负整数数组，计算你在不触动警报装置的情况下，能够偷窃到的最高金额。
 
 Example 1:
 
@@ -26,17 +26,17 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 */
 
 /*
-����:��������ö�̬�滮��⣬ӵ�������ӽṹ����n-1�����Ƶ���n�����޺�Ч�ԡ�
-     ��iλ�������־��ߣ�
-	 1������i�����ݣ�����߽�� = ����i-2����߽�� + ��ǰ������� dp[i] = dp[i-2] + nums[i]
-	 2��������i�����ݣ�����߽�� = ����i-1����߽��� dp[i] = dp[i-1]
+分析:此题可以用动态规划求解，拥有最优子结构，由n-1可以推导出n，且无后效性。
+     第i位共有两种决策：
+	 1）抢第i个房屋：则最高金额 = 抢第i-2户最高金额 + 当前房间金额。即 dp[i] = dp[i-2] + nums[i]
+	 2）不抢第i个房屋：则最高金额 = 抢第i-1户最高金额。即 dp[i] = dp[i-1]
 
-	 ����״̬ת�Ʒ��̣�			
+	 故有状态转移方程：			
 			dp[i] = max(dp[i-1],dp[i-2]+nums[i]);
 	
-	dp[i]��ʾ����i�������ܹ���õ���߽��
+	dp[i]表示抢第i个房屋能够获得的最高金额
 
-����  2 7  9  3  1
+例：  2 7  9  3  1
    dp 2 7 11 11 12
 */
 
@@ -60,14 +60,14 @@ public:
 		case 2:
 			return max(nums[0],nums[1]);
 		default:
-			return getMaxMonoey(nums);
+			return getMaxMoney(nums);
 		}
     }
 
-	int getMaxMonoey(const vector<int> &nums)
+	int getMaxMoney(const vector<int> &nums)
 	{
 		int len = nums.size();
-		//��Ȼ���붼�Ǵ���2�ģ����������ı��ϰ����Ҫ�ӱ���
+		//虽然传入都是大于2的，但是正常的编程习惯需要加保护
 		if(len < 3)
 			return 0;
 
@@ -76,7 +76,7 @@ public:
 		dp[0] = nums[0];
 		dp[1] = max(nums[0], nums[1]);
 			
-		//����״̬ת�Ʒ��̣���䶯̬�滮���顣
+		//根据状态转移方程，填充动态规划数组。
 		for(int i=2; i<len; ++i)
 		{
 			dp[i] = max(dp[i-1],dp[i-2]+nums[i]);
