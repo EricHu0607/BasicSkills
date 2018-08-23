@@ -9,6 +9,7 @@ A repository for leetcode test.
 91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode91.cpp)
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|Medium|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode94.cpp)
 96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|Medium|DP/Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode96.cpp)
+98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|Medium|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode98.cpp)
 100|[Same Tree](https://leetcode.com/problems/same-tree/description/)|Easy|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode100.cpp)
 198|[House Robber](https://leetcode.com/problems/house-robber/description/)|Easy|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode198.cpp)
 213|[House RobberII](https://leetcode.com/problems/house-robber-ii/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode213.cpp)
