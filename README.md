@@ -9,6 +9,7 @@ A repository for leetcode test.
 61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode61.cpp)
 67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|Math|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode67.cpp)
 72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|Hard|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode72.cpp)
+86|[Partition List](https://leetcode.com/problems/partition-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode86.cpp)
 91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode91.cpp)
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|Medium|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode94.cpp)
 96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|Medium|DP/Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode96.cpp)
