@@ -16,6 +16,7 @@ A repository for leetcode test.
 96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)|Medium|DP/Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode96.cpp)
 98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|Medium|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode98.cpp)
 100|[Same Tree](https://leetcode.com/problems/same-tree/description/)|Easy|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode100.cpp)
+142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode142.cpp)
 147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode147.cpp)
 198|[House Robber](https://leetcode.com/problems/house-robber/description/)|Easy|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode198.cpp)
 203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|Easy|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode203.cpp)
