@@ -7,6 +7,7 @@ A repository for leetcode test.
 :----|:----:|:----:|----|----:
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode19.cpp)
 42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description)|Hard|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode42.cpp)
+55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|Medium|DP/Greedy|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode55.cpp)
 61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode61.cpp)
 67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|Math|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode67.cpp)
 72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|Hard|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode72.cpp)
