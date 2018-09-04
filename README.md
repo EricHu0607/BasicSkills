@@ -2,7 +2,6 @@
 
 A repository for leetcode test.
 
-
 #|Title|Difficulty|Topics|Code
 :----|:----:|:----:|----|----:
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode19.cpp)
