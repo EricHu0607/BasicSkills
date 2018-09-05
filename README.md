@@ -4,6 +4,7 @@ A repository for leetcode test.
 
 #|Title|Difficulty|Topics|Code
 :----|:----:|:----:|----|----:
+7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|Math|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode7.cpp)
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode19.cpp)
 42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description)|Hard|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode42.cpp)
 55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|Medium|DP/Greedy|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode55.cpp)
