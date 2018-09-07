@@ -2,6 +2,7 @@
 
 A repository for leetcode test.
 
+
 #|Title|Difficulty|Topics|Code
 :----|:----:|:----:|----|----:
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|Math|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode7.cpp)
