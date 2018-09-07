@@ -13,6 +13,7 @@ A repository for leetcode test.
 62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode62.cpp)
 67|[Add Binary](https://leetcode.com/problems/add-binary/)|Easy|Math|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode67.cpp)
 72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|Hard|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode72.cpp)
+74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|Medium|Array|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode74.cpp)
 86|[Partition List](https://leetcode.com/problems/partition-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode86.cpp)
 91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode91.cpp)
 94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|Medium|Tree|[C++](https://github.com/CloudsHCX/LeetCode/blob/master/cppCode/leetcode94.cpp)
