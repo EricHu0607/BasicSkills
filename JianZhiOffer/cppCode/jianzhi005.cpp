@@ -1,11 +1,11 @@
 /*
-��β��ͷ��ӡ����
-��Ŀ����
-����һ��������������ֵ��β��ͷ��˳�򷵻�һ��ArrayList��
+005 从尾到头打印链表
+题目描述
+输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
 */
 
 /*
-�������ÿռ任ʱ�䣬��֤ʱ�临�Ӷ�ΪO(n),��������ջ��ʵ�ֵ���
+分析：用空间换时间，保证时间复杂度为O(n),可以利用栈，实现倒序。
 */
 #include <iostream>
 #include <vector>
@@ -31,7 +31,7 @@ public:
 			tmp_stack.push(cur->val);
             cur = cur->next;
 		}
-		//��̬���ٿռ�
+		//静态开辟空间
 		vector<int> res(tmp_stack.size());
 
 		for(int i = 0;!tmp_stack.empty(); ++i)
