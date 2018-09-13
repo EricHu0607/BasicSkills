@@ -8,6 +8,7 @@ A repository for leetcode test.
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Easy|Math|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode7.cpp)
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode19.cpp)
 42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description)|Hard|DP|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode42.cpp)
+45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|Hard|Greedy|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode45.cpp)
 55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|Medium|DP/Greedy|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode55.cpp)
 61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|Medium|Linked List|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode61.cpp)
 62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|Medium|DP|[C++](https://github.com/CloudsHCX/BasicSkills/blob/master/LeetCode/cppCode/leetcode62.cpp)
