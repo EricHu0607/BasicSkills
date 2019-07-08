@@ -69,6 +69,8 @@ public:
 			cur->next = l2;
 		}
 
-		return fakeHead->next;
+		cur = fakeHead->next;
+		delete fakeHead;
+		return cur;
 	}
 };
